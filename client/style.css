@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@300;400&family=Roboto+Slab:wght@300&display=swap');
+/* font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif; */
+:root{
+    --lighter: #fbe0c3;
+    --light:#ffbb98;
+    --dark: #7D8E95 ;
+    --darker: rgba(40, 54, 57, 1) ;
+    --darksub:rgba(40, 54, 57, .75);
+
+    --big: 'Roboto Slab', serif;    
+    --subtext:'Montserrat';
+}
+
+body{
+    background: var(--lighter);
+    font-family: var(--big);
+}
+
+
+main{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    color: var(--darker);
+
+}
+
+input{
+    border: none;
+    background: none;
+    font-family: var(--subtext);
+    height: 30px;
+    width: 50%;
+
+}
+button{
+    background: none;
+    border: none;
+    
+    color: var(--darker);
+    font-family: var(--subtext);
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+table{
+    font-family: var(--subtext);
+    margin: 50px auto;
+    width: 300px ;
+
+}
+
+table,th,td{
+    border-collapse: separate;
+    
+
+} 
+td{
+   padding: 10px;
+   ;
+}  
+tr{
+    background-color: var(--dark);
+    color: var(--lighter);
+    padding-top: 10px;
+    border-radius: 100px ;
+}
+
+th,td{
+padding: 8px;
+}
+
+.delete-row-btn{
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    border: 0;
+}
+
+.edit-row-btn{
+    background-color: green;
+    border-radius: 4px;
+    color: white;
+    border: 0;
+}
