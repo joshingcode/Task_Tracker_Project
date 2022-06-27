@@ -70,7 +70,7 @@ app.get('/search/:name',(request,response)=>{
 
 
 })
-
+const port = process.env.PORT || 6000
 app.listen('3000',()=>{
     console.log('This server is running!!!')
 })
