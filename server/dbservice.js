@@ -8,7 +8,7 @@ let instance = null;
  const db =mysql.createConnection({
     host:'localhost',
     user:'devJosh',
-    password:'change123',
+    password:process.env.PASS,
     database: 'web_app',
     port:'3306'
  });

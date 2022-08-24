@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/insert": {
+      "name": "/insert",
+      "lambdaFunction": "tasktrackerproject25250ec8",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

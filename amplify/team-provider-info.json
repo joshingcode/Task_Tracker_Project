@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tasktrackerproject-dev-134302-authRole",
+      "UnauthRoleArn": "arn:aws:iam::756941609771:role/amplify-tasktrackerproject-dev-134302-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::756941609771:role/amplify-tasktrackerproject-dev-134302-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tasktrackerproject-dev-134302-deployment",
+      "UnauthRoleName": "amplify-tasktrackerproject-dev-134302-unauthRole",
+      "StackName": "amplify-tasktrackerproject-dev-134302",
+      "StackId": "arn:aws:cloudformation:us-east-1:756941609771:stack/amplify-tasktrackerproject-dev-134302/34b0e300-23d4-11ed-919c-0aa94812593d",
+      "AmplifyAppId": "d2wx9u7dpijmvp"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2wx9u7dpijmvp",
+          "type": "cicd"
+        }
+      },
+      "function": {
+        "tasktrackerproject25250ec8": {
+          "deploymentBucketName": "amplify-tasktrackerproject-dev-134302-deployment",
+          "s3Key": "amplify-builds/tasktrackerproject25250ec8-7854765036332b2b6d37-build.zip"
+        }
+      }
+    }
+  }
+}
