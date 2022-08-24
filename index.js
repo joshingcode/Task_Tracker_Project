@@ -1,4 +1,4 @@
-
+const port = process.env.PORT || 5000
 document.addEventListener('DOMContentLoaded',function() {
     fetch(`http://localhost:${port}/getAll`)
     .then(response => response.json())
